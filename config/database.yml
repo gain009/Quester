@@ -49,6 +49,9 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
   database: Quester_production
   username: Quester
   password: <%= ENV['QUESTER_DATABASE_PASSWORD'] %>
