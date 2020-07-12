@@ -1,24 +1,31 @@
-# README
+# README  
+# Quester  
+QuesterはSNSサイトを元にした雑談練習用サイトです。  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+最初の投稿者がシンプルなお題を画像を交えて出題します。  
+その後、コメント欄で投稿者やその他のユーザーがその日あったことや知識、ツッコミを交えて、会話を発展させていきます。  
 
-Things you may want to cover:
+現在は、単純なコメント欄といいね機能を実装していますが、今後intro.jsを使用したチュートリアル機能や投稿画面の添付画像のサムネイル化、顔文字の対応等を検討してます。  
 
-* Ruby version
 
-* System dependencies
+# DEMO
+トップ画面  
+![メニュー説明](public/投稿解説.png)  
+投稿  
+![投稿画面](public/投稿画面2.png)  
+コメント投稿&いいね  
+![コメントといいね](public/投稿2.gif)  
 
-* Configuration
+# Requirement  
 
-* Database creation
+* ruby '2.5.1'  
+ 'rails', '~> 5.2.3'  
+ 'mysql2', '>= 0.4.4', '< 0.6.0'  
 
-* Database initialization
+# Author
 
-* How to run the test suite
+* 作成者:川浪裕太郎  
+* E-mail:o76.kawanami.yutaro@gmail.com  
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# License  
+©Quester 2020  
